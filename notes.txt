@@ -1,0 +1,7 @@
+backdrop-filter: blur(20px);
+        background: linear-gradient(
+        90deg,
+        #6C5DD3 0%,
+        #7A6FE3 50%,
+        #5B4EC9 100%
+        );
