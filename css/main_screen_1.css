@@ -124,8 +124,6 @@
     width: 30px;
 }
 
-
-
 .main-screen-1-weather-schedule-results-result-hour h3,
 .main-screen-1-weather-schedule-results-result-celsius h3 {
     font-size: 12px;
@@ -133,10 +131,10 @@
 }
 
 .main-screen-1-weather-schedule-btns {
+    
     position: relative;
     width: 100%;
     height: 20%;
-    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     align-items: center;

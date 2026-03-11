@@ -62,7 +62,7 @@
 
 .main-screen-2-weather-search-place-return-btn button span::before,
 .main-screen-2-weather-search-place-return-btn button span::after {
-  content: "";
+  content: '';
   position: absolute;
   background: white;
 }
@@ -147,7 +147,7 @@
   flex: 0 0 auto;
   height: 30%;
   max-height: 300px;
-  background-image: url("../images/shape3.png");
+  background-image: url('../images/shape3.png');
   background-size: cover;
   background-position: start;
   background-repeat: no-repeat;
@@ -160,6 +160,10 @@
     position: absolute;
     top: 0%;
     right: 0%;
+}
+
+.main-screen-2-weather-search-results-result-weather-status-icon img {
+  width: 100px;
 }
 
 .main-screen-2-weather-search-results-result-weather-celsius h1 {

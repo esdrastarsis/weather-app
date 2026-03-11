@@ -1,0 +1,303 @@
+[
+  {
+    "place_name": "Montreal",
+    "place_celsius": 19,
+    "place_weather_status": "Mostly Clear",
+    "place_weather_h": 24,
+    "place_weather_l": 17,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour": 0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":17},
+      {"place_hourly_forecast_hour": 2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":17},
+      {"place_hourly_forecast_hour": 4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":16},
+      {"place_hourly_forecast_hour": 6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":17},
+      {"place_hourly_forecast_hour": 8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour": 10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour": 12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour": 14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour": 16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour": 18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour": 20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour": 22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":19}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":20},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":22},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":18},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":23},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":19},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":24},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":21}
+    ]
+  },
+
+  {
+    "place_name": "Tokyo",
+    "place_celsius": 26,
+    "place_weather_status": "Rainy",
+    "place_weather_h": 30,
+    "place_weather_l": 23,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":24},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":27},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":29},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":30},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":29},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":28},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":27},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":26}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":27},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":29},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":26},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":30},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":28},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":31},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":27}
+    ]
+  },
+  {
+    "place_name": "London",
+    "place_celsius": 16,
+    "place_weather_status": "Light Rain",
+    "place_weather_h": 19,
+    "place_weather_l": 13,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":13},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":13},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":12},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":14},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":15},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":16},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":17},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":16},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":15}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":17},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":18},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":16},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":15},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":19},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":16},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":18}
+    ]
+  },
+  {
+    "place_name": "Paris",
+    "place_celsius": 18,
+    "place_weather_status": "Partly Cloudy",
+    "place_weather_h": 22,
+    "place_weather_l": 15,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":15},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":15},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":14},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":16},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":18}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":19},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":21},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":18},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":22},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":17},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":23},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":20}
+    ]
+  },
+  {
+    "place_name": "Berlin",
+    "place_celsius": 17,
+    "place_weather_status": "Cloudy",
+    "place_weather_h": 21,
+    "place_weather_l": 14,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":14},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":14},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":13},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":15},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":16},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":17}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":18},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":17},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":20},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":21},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":16},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":17},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":19}
+    ]
+  },
+  {
+    "place_name": "Madrid",
+    "place_celsius": 27,
+    "place_weather_status": "Sunny",
+    "place_weather_h": 32,
+    "place_weather_l": 22,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":28},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":30},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":32},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":31},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":30},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":28},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":27}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":29},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":31},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":30},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":26},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":32},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":28},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":31}
+    ]
+  },
+  {
+    "place_name": "Rome",
+    "place_celsius": 25,
+    "place_weather_status": "Warm",
+    "place_weather_h": 29,
+    "place_weather_l": 20,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":27},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":29},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":28},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":27},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":26},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":25}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":27},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":28},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":25},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":29},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":23},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":30},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":26}
+    ]
+  },
+  {
+    "place_name": "Lisbon",
+    "place_celsius": 23,
+    "place_weather_status": "Breezy",
+    "place_weather_h": 26,
+    "place_weather_l": 19,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":20},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":26},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":24},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":22}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":24},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":25},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":23},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":26},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":21},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":27},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":24}
+    ]
+  },
+  {
+    "place_name": "New York",
+    "place_celsius": 21,
+    "place_weather_status": "Partly Rainy",
+    "place_weather_h": 26,
+    "place_weather_l": 18,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":18},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":17},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":19},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":26},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":25},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":24},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":21}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":23},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":25},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":21},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":26},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":20},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":27},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":22}
+    ]
+  },
+  {
+    "place_name": "Los Angeles",
+    "place_celsius": 28,
+    "place_weather_status": "Sunny",
+    "place_weather_h": 33,
+    "place_weather_l": 22,
+    "place_hourly_forecast": [
+      {"place_hourly_forecast_hour":0,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":2,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":22},
+      {"place_hourly_forecast_hour":4,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":21},
+      {"place_hourly_forecast_hour":6,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":23},
+      {"place_hourly_forecast_hour":8,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":26},
+      {"place_hourly_forecast_hour":10,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":29},
+      {"place_hourly_forecast_hour":12,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":31},
+      {"place_hourly_forecast_hour":14,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":33},
+      {"place_hourly_forecast_hour":16,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":32},
+      {"place_hourly_forecast_hour":18,"place_hourly_forecast_icon":"sun_cloud_mid_rain.svg","place_hourly_forecast_celsius":31},
+      {"place_hourly_forecast_hour":20,"place_hourly_forecast_icon":"moon_cloud_mid_rain.svg","place_hourly_forecast_celsius":29},
+      {"place_hourly_forecast_hour":22,"place_hourly_forecast_icon":"moon_cloud_angled_rain.svg","place_hourly_forecast_celsius":28}
+    ],
+    "place_weekly_forecast": [
+      {"place_weekly_forecast_day":"Monday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":30},
+      {"place_weekly_forecast_day":"Tuesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":32},
+      {"place_weekly_forecast_day":"Wednesday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":31},
+      {"place_weekly_forecast_day":"Thursday","place_weekly_forecast_icon":"moon_cloud_mid_rain.svg","place_weekly_forecast_celsius":29},
+      {"place_weekly_forecast_day":"Friday","place_weekly_forecast_icon":"tornado.svg","place_weekly_forecast_celsius":27},
+      {"place_weekly_forecast_day":"Saturday","place_weekly_forecast_icon":"sun_cloud_mid_rain.svg","place_weekly_forecast_celsius":33},
+      {"place_weekly_forecast_day":"Sunday","place_weekly_forecast_icon":"moon_cloud_angled_rain.svg","place_weekly_forecast_celsius":30}
+    ]
+  }
+]

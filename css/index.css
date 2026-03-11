@@ -9,6 +9,10 @@
     --deep-violet: #5A3FA8;   
 }
 
+html, body {
+    touch-action: manipulation;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ body {
 .app {
     width: 100%;
     height: 100vh;
-    background-image: url('../images/background.png');
+    background-image: url('../images/background.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
