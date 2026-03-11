@@ -43,6 +43,7 @@ body {
     background: transparent;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 .header {
