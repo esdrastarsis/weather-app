@@ -11,27 +11,27 @@
 }
 
 .main-screen-2-weather-search-place-header {
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .main-screen-2-weather-search-place-options-btn-background {
-    width: 25px;
-    height: 25px;
-    border: 2px solid var(--main-text);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 25px;
+  height: 25px;
+  border: 2px solid var(--main-text);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-screen-2-weather-search-place-options-btn {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 .main-screen-2-weather-search-place-return-btn {
@@ -62,7 +62,7 @@
 
 .main-screen-2-weather-search-place-return-btn button span::before,
 .main-screen-2-weather-search-place-return-btn button span::after {
-  content: '';
+  content: "";
   position: absolute;
   background: white;
 }
@@ -147,19 +147,20 @@
   flex: 0 0 auto;
   height: 30%;
   max-height: 300px;
-  background-image: url('../images/shape3.svg');
+  background-image: url("../images/shape3.svg");
   background-size: cover;
   background-position: start;
   background-repeat: no-repeat;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
 .main-screen-2-weather-search-results-result-weather-status-icon {
-    position: absolute;
-    top: 0%;
-    right: 0%;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  padding: 0px;
 }
 
 .main-screen-2-weather-search-results-result-weather-status-icon img {
@@ -167,32 +168,32 @@
 }
 
 .main-screen-2-weather-search-results-result-weather-celsius h1 {
-    font-size: 45px;
-    font-weight: 400;
-    letter-spacing: -1px;
+  font-size: 45px;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 .main-screen-2-weather-search-results-result-weather-h-l {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
 }
 
 .main-screen-2-weather-search-results-result-weather-celsius {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-screen-2-weather-search-results-result-weather-h-l h3 {
-    font-weight: 300;
-    color: var(--subtle-labels);
-    font-size: 15px;
+  font-weight: 300;
+  color: var(--subtle-labels);
+  font-size: 15px;
 }
 
 .main-screen-2-weather-search-results-result-weather-city,
 .main-screen-2-weather-search-results-result-weather-status h3 {
-    font-weight: 400;
-    font-size: 15px;
+  font-weight: 400;
+  font-size: 15px;
 }

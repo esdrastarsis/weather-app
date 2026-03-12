@@ -1,4 +1,4 @@
-function setWithExpiry(key, value, ttl) {
+function set_with_expiry (key, value, ttl) {
     const object = {
         value: value,
         expiry: Date.now() + ttl
@@ -6,7 +6,7 @@ function setWithExpiry(key, value, ttl) {
     localStorage.setItem(key, JSON.stringify(object));
 }
 
-function getWithExpiry(key) {
+function get_with_expiry (key) {
     const object_str = localStorage.getItem(key);
     if(!object_str) return null;
     const object = JSON.parse(object_str);
@@ -17,4 +17,4 @@ function getWithExpiry(key) {
     return object.value;
 }
 
-export { setWithExpiry, getWithExpiry };
+export { set_with_expiry, get_with_expiry };

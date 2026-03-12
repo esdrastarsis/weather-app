@@ -2,7 +2,7 @@
   {
     "place_name": "Montreal",
     "place_celsius": 19,
-    "place_weather_status": "Mostly Clear",
+    "place_weather_status": "Clear",
     "place_weather_h": 24,
     "place_weather_l": 17,
     "place_hourly_forecast": [
@@ -63,7 +63,7 @@
   {
     "place_name": "London",
     "place_celsius": 16,
-    "place_weather_status": "Light Rain",
+    "place_weather_status": "Rainy",
     "place_weather_h": 19,
     "place_weather_l": 13,
     "place_hourly_forecast": [
@@ -93,7 +93,7 @@
   {
     "place_name": "Paris",
     "place_celsius": 18,
-    "place_weather_status": "Partly Cloudy",
+    "place_weather_status": "Cloudy",
     "place_weather_h": 22,
     "place_weather_l": 15,
     "place_hourly_forecast": [
@@ -243,7 +243,7 @@
   {
     "place_name": "New York",
     "place_celsius": 21,
-    "place_weather_status": "Partly Rainy",
+    "place_weather_status": "Rainy",
     "place_weather_h": 26,
     "place_weather_l": 18,
     "place_hourly_forecast": [

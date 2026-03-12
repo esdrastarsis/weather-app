@@ -2,7 +2,7 @@ const main_screen_1_hourly_forecast_btn = document.querySelector('.main-screen-1
 const main_screen_1_weather_schedule_results = document.querySelector('.main-screen-1-weather-schedule-results');
 const keeper = document.querySelector('.main-screen-1-weather-schedule-sections-loader-keeper');
 
-function fetch_main_screen_1_hourly_forecast (place) {
+function get_main_screen_1_hourly_forecast (place) {
     main_screen_1_weather_schedule_results.innerHTML = '';
     keeper.classList.add('hourly');
     for(let i = 0; i < place.place_hourly_forecast.length; i++) {
@@ -21,13 +21,13 @@ function fetch_main_screen_1_hourly_forecast (place) {
     }
 }
 
-function fetch_main_screen_1_hourly_forecast_onclick (place) {
+function get_main_screen_1_hourly_forecast_onclick (place) {
     main_screen_1_hourly_forecast_btn.addEventListener('click', () => {
         keeper.classList.remove('weekly');
         keeper.classList.add('hourly');
-        fetch_main_screen_1_hourly_forecast(place);
+        get_main_screen_1_hourly_forecast(place);
     });
 }
 
 
-export { fetch_main_screen_1_hourly_forecast, fetch_main_screen_1_hourly_forecast_onclick };
+export { get_main_screen_1_hourly_forecast, get_main_screen_1_hourly_forecast_onclick };
