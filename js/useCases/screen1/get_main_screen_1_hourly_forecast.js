@@ -11,7 +11,7 @@ function get_main_screen_1_hourly_forecast (place) {
                 <div class='main-screen-1-weather-schedule-results-result-hour'>
                     <h3>${(place.place_hourly_forecast[i].place_hourly_forecast_hour % 12) || 12} ${place.place_hourly_forecast[i].place_hourly_forecast_hour < 12 ? 'AM' : 'PM'}</h3>
                 <div class='main-screen-1-weather-schedule-results-result-weather-icon'>
-                    <img src='images/weather-icons/${place.place_hourly_forecast[i].place_hourly_forecast_icon}' alt=''>
+                    <img src='images/weather-icons/${place.place_hourly_forecast[i].place_hourly_forecast_icon}' alt='' draggable="false">
                 </div>
                 <div class='main-screen-1-weather-schedule-results-result-celsius'>
                     <h3>${place.place_hourly_forecast[i].place_hourly_forecast_celsius}°</h3>
