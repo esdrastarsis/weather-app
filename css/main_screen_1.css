@@ -195,14 +195,14 @@
 .main-screen-1-weather-schedule-btns-shape {
     position: absolute;
     left: 50%;
-    bottom: 0;
+    bottom: -5%;
     transform: translateX(-50%);
     z-index: 0;
 }
 
 .main-screen-1-weather-schedule-btns-shape img {
     display: block;
-    width: 180px;
+    width: 250px;
 }
 
 .main-screen-1-weather-schedule-btns-plus-btn {
