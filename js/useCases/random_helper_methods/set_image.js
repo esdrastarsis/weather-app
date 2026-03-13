@@ -1,6 +1,6 @@
 function set_image(status) {
     let image;
-    if (status.toLowerCase().includes('sunny', 'warm')) {
+    if (status.toLowerCase().includes('sunny', 'warm', 'clear')) {
         image = 'sun_cloud_mid_rain.svg';
         return image;
     } 

@@ -1,4 +1,4 @@
-import { set_active_place, get_active_place } from "../../useCases/set_active_place_in_memory.js";
+import { set_active_place, get_active_place } from "../../useCases/random_helper_methods/set_active_place_in_memory.js";
 
 function fetch_place_api (places, requested_name) {
     const cached_place = get_active_place('active_place');

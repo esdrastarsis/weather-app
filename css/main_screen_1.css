@@ -8,6 +8,7 @@
   left: 50%;
   z-index: 0;
   transform: translate(-50%, -50%);
+  user-select: none;
 }
 
 .main-screen-1-mask {
@@ -201,7 +202,7 @@
   width: 50px;
   flex: 0 0 auto;
   border-radius: 25px;
-  background: rgba(56, 56, 108);
+  background: rgba(56, 56, 108, 1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +210,10 @@
   padding: 5px;
   color: var(--main-text);
   text-align: center;
+}
+
+.main-screen-1-weather-schedule-results-result.highlighted {
+   background: linear-gradient(145deg, #5936b4 0%, #4a329c 40%, #362a84 100%);
 }
 
 .main-screen-1-weather-schedule-results-result-weather-icon img {
@@ -245,6 +250,7 @@
 }
 
 .main-screen-1-weather-schedule-btns-shape img {
+  user-select: none;
   display: block;
   width: 250px;
 }

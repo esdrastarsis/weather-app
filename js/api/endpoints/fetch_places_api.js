@@ -1,4 +1,4 @@
-import { set_with_expiry, get_with_expiry } from '../../useCases/save_places_in_memory.js';
+import { set_with_expiry, get_with_expiry } from '../../useCases/random_helper_methods/save_places_in_memory.js';
 
 async function fetch_places_api () {
     const is_places = get_with_expiry('places');
