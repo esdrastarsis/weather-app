@@ -3,6 +3,7 @@ import fetch_listed_places_api from './api/fetch_listed_places_api.js';
 import fetch_active_place_api from './api/fetch_active_place_api.js';
 // Screen 1
 import { open_screen_1_onclick } from './useCases/screen1/open_screen_1.js';
+import change_hour from './useCases/screen1/get_active_place_hour.js';
 import { get_main_screen_1_hourly_forecast, get_main_screen_1_hourly_forecast_onclick } from './useCases/screen1/get_main_screen_1_hourly_forecast.js';
 import get_main_screen_1_weekly_forecast_onclick from './useCases/screen1/get_main_screen_1_weekly_forecast.js';
 // Screen 2
@@ -23,10 +24,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         active_place = fetch_active_place_api(places, 'london');
     }
     console.log(active_place);
+    change_hour(active_place);
     get_main_screen_1_hourly_forecast(active_place);
     get_main_screen_1_hourly_forecast_onclick(active_place);
     get_main_screen_1_weekly_forecast_onclick(active_place);
     open_screen_1_onclick();
     open_screen_2();
 });
-
