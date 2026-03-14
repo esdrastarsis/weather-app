@@ -48,19 +48,6 @@
   font-weight: 600;
 }
 
-.main-screen-1-weather-city h1 {
-  animation: scrollCity 8s linear infinite;
-}
-
-@keyframes scrollCity {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 .main-screen-1-weather-celsius {
   font-weight: 300;
   letter-spacing: -1px;
