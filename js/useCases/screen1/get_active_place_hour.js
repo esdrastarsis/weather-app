@@ -9,10 +9,14 @@ function get_active_place_hour (timezone) {
     }
     const settled_hour = new Intl.DateTimeFormat("en-US", options).format(new Date());
     clock.textContent = settled_hour;
+    console.log('called');
 }
 
 function change_hour (active_place) {
-    setInterval(get_active_place_hour(active_place.place_timezone), 1000 * 60);
+    get_active_place_hour(active_place.place_timezone)
+    setInterval(() => {
+        get_active_place_hour(active_place.place_timezone)
+    }, 1000 * 60);
 }
 
 export default change_hour;

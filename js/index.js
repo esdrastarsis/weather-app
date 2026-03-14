@@ -11,6 +11,7 @@ import open_screen_2 from './useCases/screen2/open_screen_2.js';
 import get_main_screen_2_search_results from './useCases/screen2/get_main_screen_2_search_results.js';
 import search_main_screen_2_place_on_input from './useCases/screen2/search_main_screen_2_place.js';
 import { get_active_place } from './useCases/random_helper_methods/set_active_place_in_memory.js';
+import drag_schedule_results from './useCases/random_helper_methods/drag_schedule_results.js';
 
 const main_screen_2 = document.querySelector('.main-screen-2');
 
@@ -29,5 +30,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     get_main_screen_1_hourly_forecast_onclick(active_place);
     get_main_screen_1_weekly_forecast_onclick(active_place);
     open_screen_1_onclick();
+    drag_schedule_results();
     open_screen_2();
 });
