@@ -1,4 +1,4 @@
-import change_hour from './useCases/screen1/get_active_place_hour.js';
+import change_hour from '../screen1/get_active_place_hour.js';
 import { get_main_screen_1_hourly_forecast, get_main_screen_1_hourly_forecast_onclick } from "../screen1/get_main_screen_1_hourly_forecast.js";
 import get_main_screen_1_place_info from "../screen1/get_main_screen_1_place_info.js";
 import get_main_screen_1_weekly_forecast_onclick from "../screen1/get_main_screen_1_weekly_forecast.js";
