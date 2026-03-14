@@ -1,3 +1,4 @@
+import change_hour from './useCases/screen1/get_active_place_hour.js';
 import { get_main_screen_1_hourly_forecast, get_main_screen_1_hourly_forecast_onclick } from "../screen1/get_main_screen_1_hourly_forecast.js";
 import get_main_screen_1_place_info from "../screen1/get_main_screen_1_place_info.js";
 import get_main_screen_1_weekly_forecast_onclick from "../screen1/get_main_screen_1_weekly_forecast.js";
@@ -7,6 +8,7 @@ import { get_active_place, set_active_place } from "../random_helper_methods/set
 function set_active_place_onclick (key, data) {
     set_active_place(key, data);
     const active_place = get_active_place(key);
+    change_hour(active_place);
     get_main_screen_1_place_info(active_place);
     get_main_screen_1_hourly_forecast(active_place);
     get_main_screen_1_hourly_forecast_onclick(active_place);
