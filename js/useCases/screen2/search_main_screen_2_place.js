@@ -23,7 +23,9 @@ function search_main_screen_2_place (places, input) {
                         <h3>H: ${search_results[i].place_weather_h}°</h3>
                         <h3>L: ${search_results[i].place_weather_l}°</h3>
                     </div>
-                    <h3 class='main-screen-2-weather-search-results-result-weather-city'>${search_results[i].place_name}</h3>
+                    <div class='main-screen-2-weather-search-results-result-weather-city'>
+                        <h3>${search_results[i].place_name}</h3>
+                    </div>
                 </div>
                 <div class='main-screen-2-weather-search-results-result-weather-status'>
                     <h3>${search_results[i].place_weather_status}</h3>

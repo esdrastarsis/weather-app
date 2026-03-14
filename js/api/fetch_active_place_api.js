@@ -1,6 +1,6 @@
-import { set_active_place, get_active_place } from "../../useCases/random_helper_methods/set_active_place_in_memory.js";
+import { set_active_place, get_active_place } from "../useCases/random_helper_methods/set_active_place_in_memory.js";
 
-function fetch_place_api (places, requested_name) {
+function fetch_active_place_api (places, requested_name) {
     const cached_place = get_active_place('active_place');
     if (cached_place && cached_place.place_name.toLowerCase() === requested_name.toLowerCase()) {
         return cached_place;
@@ -14,4 +14,4 @@ function fetch_place_api (places, requested_name) {
 
     return null;
 }
-export default fetch_place_api;
+export default fetch_active_place_api;

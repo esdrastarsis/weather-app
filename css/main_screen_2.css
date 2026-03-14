@@ -104,7 +104,7 @@
   box-shadow:
     inset 0 2px 6px rgba(0, 0, 0, 0.6),
     inset 0 -2px 6px rgba(255, 255, 255, 0.05),
-    0 6px 14px rgba(0, 0, 0, 0.45); 
+    0 6px 14px rgba(0, 0, 0, 0.45);
 }
 
 .main-screen-2-weather-search-place-searchbar i {
@@ -151,6 +151,10 @@
   align-items: end;
 }
 
+.main-screen-2-weather-search-results-result-weather-info {
+  width: 150px;
+}
+
 .main-screen-2-weather-search-results-result-weather-status-icon {
   position: absolute;
   top: 0%;
@@ -169,6 +173,7 @@
 }
 
 .main-screen-2-weather-search-results-result-weather-h-l {
+  width: 100%;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -176,6 +181,7 @@
 }
 
 .main-screen-2-weather-search-results-result-weather-celsius {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -187,8 +193,31 @@
   font-size: 15px;
 }
 
-.main-screen-2-weather-search-results-result-weather-city,
+.main-screen-2-weather-search-results-result-weather-city h3,
 .main-screen-2-weather-search-results-result-weather-status h3 {
   font-weight: 400;
   font-size: 15px;
+}
+
+.main-screen-2-weather-search-results-result-weather-city {
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.main-screen-2-weather-search-results-result-weather-city::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .main-screen-2-weather-search-place {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-screen-2-weather-search-results {
+    align-items: center;
+    flex-direction: column;
+  }
 }

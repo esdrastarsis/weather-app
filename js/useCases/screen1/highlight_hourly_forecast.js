@@ -1,8 +1,8 @@
-function highlight_hourly_forecast (active_place) {
+function highlight_hourly_forecast ({ place_timezone }) {
     const hour = new Intl.DateTimeFormat('en-US', {
         hour: 'numeric',
         hour12: false,
-        timeZone: active_place.place_timezone
+        timeZone: place_timezone
     }).format(new Date());
     return Number(hour);
 }

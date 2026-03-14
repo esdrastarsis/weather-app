@@ -1,7 +1,7 @@
-function highlight_weekly_forecast (active_place) {
+function highlight_weekly_forecast ({ place_timezone }) {
     const day = Intl.DateTimeFormat('en-US', {
         weekday: 'long',
-        timeZone: active_place.place_timezone
+        timeZone: place_timezone
     }).format(new Date());
 
     return day;

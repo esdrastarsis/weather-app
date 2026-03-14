@@ -1,6 +1,6 @@
 // Api
-import fetch_places_api from './api/endpoints/fetch_places_api.js';
-import fetch_place_api from './api/endpoints/fetch_place_api.js';
+import fetch_listed_places_api from './api/fetch_listed_places_api.js';
+import fetch_active_place_api from './api/fetch_active_place_api.js';
 // Screen 1
 import { open_screen_1_onclick } from './useCases/screen1/open_screen_1.js';
 import { get_main_screen_1_hourly_forecast, get_main_screen_1_hourly_forecast_onclick } from './useCases/screen1/get_main_screen_1_hourly_forecast.js';
@@ -15,12 +15,12 @@ const main_screen_2 = document.querySelector('.main-screen-2');
 
 document.addEventListener('DOMContentLoaded', async () => {
     main_screen_2.classList.add('invisible');
-    const places = await fetch_places_api();
+    const places = await fetch_listed_places_api();
     get_main_screen_2_search_results(places);
     search_main_screen_2_place_on_input(places);
     let active_place = get_active_place('active_place');
     if (!active_place) {
-        active_place = fetch_place_api(places, 'tokyo');
+        active_place = fetch_active_place_api(places, 'london');
     }
     console.log(active_place);
     get_main_screen_1_hourly_forecast(active_place);

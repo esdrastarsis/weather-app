@@ -1,13 +1,165 @@
-backdrop-filter: blur(20px);
-        background: linear-gradient(
-        90deg,
-        #6C5DD3 0%,
-        #7A6FE3 50%,
-        #5B4EC9 100%
-        );
+{
+  "value": [
+    {
+      "current": {
+        "coord": {
+          "lon": -0.1278,
+          "lat": 51.5074
+        },
+        "weather": [
+          {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+          }
+        ],
+        "base": "stations",
+        "main": {
+          "temp": 9.63,
+          "feels_like": 6.13,
+          "temp_min": 8.92,
+          "temp_max": 10.16,
+          "pressure": 1000,
+          "humidity": 54,
+          "sea_level": 1000,
+          "grnd_level": 996
+        },
+        "visibility": 10000,
+        "wind": {
+          "speed": 8.23,
+          "deg": 240
+        },
+        "clouds": {
+          "all": 75
+        },
+        "dt": 1773409906,
+        "sys": {
+          "type": 2,
+          "id": 2075535,
+          "country": "GB",
+          "sunrise": 1773382780,
+          "sunset": 1773424835
+        },
+        "timezone": 0,
+        "id": 2643743,
+        "name": "London",
+        "cod": 200
+      }
+    }
+  ]
+}
 
-background-image: url('../images/background.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
+// Forecast JSON
+
+{
+  "city": {
+    "coord": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "country": "JP",
+    "id": 1862143,
+    "name": "Horinouchi",
+    "population": 0,
+    "sunrise": 1773435273,
+    "sunset": 1773478027,
+    "timezone": 32400
+  },
+  "cnt": 40,
+  "cod": "200",
+  "list": [
+    {
+      "clouds": { "all": 33 },
+      "dt": 1773424800,
+      "dt_txt": "2026-03-13 18:00:00",
+      "main": {
+        "temp": 7.44,
+        "feels_like": 3.74,
+        "temp_min": 7.26,
+        "temp_max": 7.44,
+        "pressure": 1020,
+        "humidity": 49,
+        "sea_level": 1020,
+        "grnd_level": 1017,
+        "temp_kf": 0.18
+      },
+      "pop": 0,
+      "sys": { "pod": "n" },
+      "visibility": 10000,
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ],
+      "wind": {
+        "speed": 6.73,
+        "deg": 240,
+        "gust": 8.99
+      }
+    },
+    {
+      "clouds": { "all": 62 },
+      "dt": 1773435600,
+      "dt_txt": "2026-03-13 21:00:00",
+      "main": {
+        "temp": 7.04,
+        "feels_like": 3.27,
+        "temp_min": 6.79,
+        "temp_max": 7.04,
+        "pressure": 1021
+      },
+      "pop": 0,
+      "sys": { "pod": "d" },
+      "visibility": 10000,
+      "weather": [
+        {
+          "id": 803,
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ],
+      "wind": {
+        "speed": 6.59,
+        "deg": 19,
+        "gust": 9.71
+      }
+    },
+    {
+      "clouds": { "all": 2 },
+      "dt": 1773457200,
+      "dt_txt": "2026-03-14 03:00:00",
+      "main": {
+        "temp": 11.02,
+        "feels_like": 8.99,
+        "temp_min": 11.02,
+        "temp_max": 11.02,
+        "pressure": 1020,
+        "humidity": 31,
+        "sea_level": 1020,
+        "grnd_level": 1017,
+        "temp_kf": 0
+      },
+      "pop": 0,
+      "sys": { "pod": "d" },
+      "visibility": 10000,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "wind": {
+        "speed": 4.81,
+        "deg": 33,
+        "gust": 5.75
+      }
+    }
+  ]
+}
