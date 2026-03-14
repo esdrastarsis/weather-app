@@ -2,7 +2,7 @@ import build_hourly_forecast from "../useCases/random_helper_methods/build_hourl
 import build_weekly_forecast from "../useCases/random_helper_methods/build_weekly_forecast.js";
 import export_api_key from "./export_api_key.js";
 
-const api_key = export_api_key();
+const api_key = export_api_key() ?? '';
 
 async function fetch_places_api({ lat, lon, timezone }) {
     const req_place_forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${api_key}`);
