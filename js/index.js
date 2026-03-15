@@ -24,7 +24,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (!active_place) {
         active_place = fetch_active_place_api(places, 'london');
     }
-    console.log(active_place);
     change_hour(active_place);
     get_main_screen_1_hourly_forecast(active_place);
     get_main_screen_1_hourly_forecast_onclick(active_place);

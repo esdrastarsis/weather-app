@@ -7,7 +7,6 @@ const api_key = export_api_key() ?? '';
 async function fetch_places_api({ lat, lon, timezone }) {
     const req_place_forecast = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${api_key}`);
     const res_place_forecast = await req_place_forecast.json();
-    console.log(res_place_forecast);
     const current = res_place_forecast.list[0];
 
     const place_object = {

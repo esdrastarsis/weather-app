@@ -8,7 +8,7 @@ async function fetch_listed_places_api () {
        const listed_places = await get_listed_places();
        const promised_places = listed_places.map(p => fetch_places_api(p));
        const places = await Promise.all(promised_places);
-       const ttl = 24 * 60 * 60 * 1000;
+       const ttl = 4 * 24 * 60 * 60 * 1000;
        set_with_expiry('cached_places', places, ttl);
        return places;
     }

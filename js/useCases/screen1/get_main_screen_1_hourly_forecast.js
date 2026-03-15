@@ -1,7 +1,7 @@
 import get_main_screen_1_place_info from './get_main_screen_1_place_info.js';
 import highlight_hourly_forecast from './highlight_hourly_forecast.js';
 import set_image from '../random_helper_methods/set_image.js';
-import find_nearest_forecast_hour from '../random_helper_methods/find_nearest_hour.js';
+import find_nearest_forecast_dt from '../random_helper_methods/find_nearest_forecast_dt.js';
 
 const main_screen_1_hourly_forecast_btn = document.querySelector('.main-screen-1-weather-schedule-sections-hourly-forecast-btn');
 const main_screen_1_weather_schedule_results = document.querySelector('.main-screen-1-weather-schedule-results');
@@ -10,21 +10,20 @@ const keeper = document.querySelector('.main-screen-1-weather-schedule-sections-
 function get_main_screen_1_hourly_forecast(active_place) {
     main_screen_1_weather_schedule_results.innerHTML = '';
     keeper.classList.add('hourly');
-    const hour = highlight_hourly_forecast(active_place);
-    const nearest_hour = find_nearest_forecast_hour(
-        hour,
+    const now = highlight_hourly_forecast();
+    const nearest_dt = find_nearest_forecast_dt(
+        now,
         active_place.place_hourly_forecast
     );
     let active_object = null;
-    let highlighted = false;
     const forecast_len = active_place.place_hourly_forecast.length;
     for (let i = 0; i < forecast_len; i++) {
         const hour_weather_h = active_place.place_hourly_forecast[i].hour_weather_h;
         const hour_weather_l = active_place.place_hourly_forecast[i].hour_weather_l;
         const hour_weather_status = active_place.place_hourly_forecast[i].hour_weather_status;
         const forecast_hour = active_place.place_hourly_forecast[i].place_hourly_forecast_hour;
-        const is_hour = !highlighted && forecast_hour == nearest_hour;
-        if(is_hour) highlighted = true;
+        const forecast_dt = active_place.place_hourly_forecast[i].place_hourly_forecast_dt;
+        const is_hour = forecast_dt === nearest_dt;
         const forecast_celsius = Math.ceil((hour_weather_h + hour_weather_l) / 2);
         
         main_screen_1_weather_schedule_results.innerHTML += `

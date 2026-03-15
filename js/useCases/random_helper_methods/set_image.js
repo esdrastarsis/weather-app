@@ -3,7 +3,7 @@ function set_image(status) {
     if(!status) {
         return 'moon_cloud_angled_rain.svg';
     }
-    if (status.toLowerCase().includes('sun', 'warm', 'clear')) {
+    if (status.toLowerCase().includes('clear')) {
         image = 'sun_cloud_mid_rain.svg';
         return image;
     } 
@@ -15,12 +15,8 @@ function set_image(status) {
         image = 'moon_cloud_mid_rain.svg';
         return image;
     }
-    if(status.toLowerCase() == 'wind') {
+    if(status.toLowerCase() == 'snow') {
         image = 'tornado.svg';
-        return image;
-    }
-    if(status.toLowerCase() == 'breez') {
-        image = 'moon_cloud_angled_rain.svg';
         return image;
     }
     return 'moon_cloud_angled_rain.svg';
