@@ -4,13 +4,13 @@ const main_search_place_return_btn = document.querySelector('.main-screen-2-weat
 const main_screen_2 = document.querySelector('.main-screen-2');
 
 function open_screen_1 () {
-    main_screen_2.classList.add('invisible');
-    main_screen_1.classList.remove('invisible');
-    app.classList.remove('nobackground');
+  main_screen_2.classList.add('invisible');
+  main_screen_1.classList.remove('invisible');
+  app.classList.remove('nobackground');
 }
 
 function open_screen_1_onclick () {
-      main_search_place_return_btn.addEventListener('click', (e) => {
+  main_search_place_return_btn.addEventListener('click', (e) => {
         e.preventDefault();
         open_screen_1();
       });

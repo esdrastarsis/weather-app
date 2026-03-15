@@ -11,6 +11,7 @@ function build_weekly_forecast(list, timezone) {
 
         if (!days[day]) {
             days[day] = {
+                dt: item.dt,
                 highs: [],
                 lows: [],
                 statuses: []
@@ -23,19 +24,16 @@ function build_weekly_forecast(list, timezone) {
     }
 
     return Object.entries(days).slice(0, 8).map(([day, data]) => {
-
         const status_count = {};
-
         for (const status of data.statuses) {
             status_count[status] = (status_count[status] || 0) + 1;
         }
-
         const most_common_status =
             Object.entries(status_count).sort((a, b) => b[1] - a[1])[0][0];
-
         return {
             place_weekly_forecast_day: day,
             day_weather_status: most_common_status,
+            place_weekly_forecast_dt: data.dt,
             day_weather_h: Math.round(Math.max(...data.highs)),
             day_weather_l: Math.round(Math.min(...data.lows))
         };

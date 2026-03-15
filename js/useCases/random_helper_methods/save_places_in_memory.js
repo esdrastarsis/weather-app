@@ -3,6 +3,7 @@ function set_with_expiry (key, value, ttl) {
         value: value,
         expiry: Date.now() + ttl
     };
+    localStorage.removeItem(key);
     localStorage.setItem(key, JSON.stringify(object));
 }
 
